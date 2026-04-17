@@ -10,6 +10,15 @@ license: "CC BY-SA 4.0"
 tags: ["ai-act", "articulo-4", "alfabetizacion-ia", "formacion-bonificada", "fundae", "cumplimiento"]
 ---
 
+
+<div align="center">
+
+![CiberAula · IA para empresas en España](../assets/banner.png)
+
+</div>
+
+---
+
 # El artículo 4 del AI Act: alfabetización en IA obligatoria para empresas
 
 > **Resumen en 3 frases:** El artículo 4 del Reglamento (UE) 2024/1689 obliga a todas las empresas europeas —sin excepción por tamaño— a garantizar que su personal tenga un nivel suficiente de alfabetización en IA cuando usen sistemas de inteligencia artificial. Está en vigor desde el 2 de febrero de 2025, por lo que las empresas españolas ya están jurídicamente obligadas a cumplirlo. La formación exigida es bonificable al 100% con el crédito FUNDAE, lo que convierte el coste real para la empresa en cero euros si se gestiona correctamente.
