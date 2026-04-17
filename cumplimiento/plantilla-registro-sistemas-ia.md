@@ -10,6 +10,15 @@ license: "CC BY-SA 4.0"
 tags: ["plantilla", "inventario-ia", "ai-act", "registro", "cumplimiento"]
 ---
 
+
+<div align="center">
+
+![CiberAula · IA para empresas en España](../assets/banner.png)
+
+</div>
+
+---
+
 # Plantilla: Registro de sistemas de IA en la empresa
 
 > **Resumen:** Plantilla completa para documentar el inventario de sistemas de IA que utiliza tu empresa, con todos los campos necesarios para cumplir el AI Act y para responder a una inspección de AESIA o AEPD. Incluye 15 campos por sistema, clasificación de riesgo guiada y bloque de trazabilidad de cambios. Lista para copiar a Excel o Google Sheets.
