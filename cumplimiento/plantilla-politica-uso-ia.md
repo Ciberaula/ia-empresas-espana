@@ -10,6 +10,15 @@ license: "CC BY-SA 4.0 (texto) + dedicación a dominio público de las cláusula
 tags: ["plantilla", "politica-ia", "ai-act", "rgpd", "cumplimiento-corporativo"]
 ---
 
+
+<div align="center">
+
+![CiberAula · IA para empresas en España](../assets/banner.png)
+
+</div>
+
+---
+
 # Plantilla: Política interna de uso de inteligencia artificial
 
 > **Cómo usar esta plantilla:** Copia el texto que sigue a tu editor de Word, Google Docs o similar. Sustituye todas las etiquetas marcadas con `[CORCHETES]` por los datos de tu empresa. Revisa las secciones marcadas con `[OPCIONAL]` y elimina las que no apliquen. Imprime, firma y archiva con la fecha de entrada en vigor. Entrega una copia firmada a cada empleado que use IA y conserva las copias firmadas durante al menos 5 años.
