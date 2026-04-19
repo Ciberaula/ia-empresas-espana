@@ -117,7 +117,7 @@ Cada sistema IA de tu empresa se documenta con estos 15 campos, organizados en 5
 
 Usa este diagrama para clasificar cada sistema de tu registro. Empieza por la primera pregunta y sigue las flechas.
 
-<div style="text-align:center;margin:28px 0">
+<div style="display:flex;justify-content:center;margin:28px auto;max-width:780px">
 
 <svg viewBox="0 0 780 620" xmlns="http://www.w3.org/2000/svg" style="max-width:780px;width:100%;font-family:-apple-system,'Segoe UI',sans-serif">
   <!-- Fondo -->
