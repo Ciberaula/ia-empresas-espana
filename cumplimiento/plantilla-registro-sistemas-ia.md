@@ -10,9 +10,6 @@ license: "CC BY-SA 4.0"
 tags: ["plantilla", "inventario-ia", "ai-act", "registro", "cumplimiento"]
 ---
 
-<img src="../assets/banner.png" alt="CiberAula · IA para empresas en España" style="width:100%;max-width:900px;display:block;margin:0 auto 20px">
-
----
 
 # Plantilla: Registro de sistemas de IA en la empresa
 
