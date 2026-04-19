@@ -67,20 +67,61 @@ Una frase, cinco obligaciones: (1) adoptar medidas activas, (2) garantizar un ni
 
 El artículo 4 se aplica a **proveedores** (desarrollan o comercializan IA) y **responsables del despliegue** (usan IA bajo su autoridad en actividad profesional). Este diagrama determina si tu empresa está obligada:
 
-<div class="arbol-decision">
-<table>
-<thead><tr><th>Pregunta</th><th>→</th><th>Resultado</th></tr></thead>
-<tbody>
-<tr><td>¿Tu empresa usa algún sistema de IA en su actividad profesional?</td><td>No →</td><td>No aplica (situación muy rara en 2026)</td></tr>
-<tr><td>↓ Sí</td><td></td><td></td></tr>
-<tr><td>¿El uso es estrictamente personal y no profesional?</td><td>Sí →</td><td>No aplica para ese uso concreto</td></tr>
-<tr><td>↓ No</td><td></td><td></td></tr>
-<tr><td>¿El sistema está amparado por una excepción del reglamento?</td><td>Sí →</td><td>Verificar la excepción con asesor jurídico</td></tr>
-<tr><td>↓ No</td><td></td><td></td></tr>
-<tr><td colspan="3"><strong>⚖️ El artículo 4 te aplica. Tu empresa debe garantizar la alfabetización en IA de su personal.</strong></td></tr>
-</tbody>
-</table>
-</div>
+<svg width="100%" viewBox="0 0 680 490" role="img" style="max-width:680px;margin:1.5rem auto;display:block">
+<title>Árbol de decisión: ¿Te aplica el artículo 4?</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<style>
+  text{font-family:"Outfit",sans-serif}
+  .q{fill:#1B2A4A;font-size:13px;font-weight:600}
+  .r{fill:#5F5E5A;font-size:12px}
+  .lbl{font-size:12px;font-weight:700}
+  .yes{fill:#1D9E75}
+  .no{fill:#993C1D}
+  .conclusion{fill:#FAFAF7;font-size:14px;font-weight:600}
+  .concl-sub{fill:#F0997B;font-size:12px}
+  .note{fill:#888780;font-size:11px;font-style:italic}
+  @media(prefers-color-scheme:dark){
+    .q{fill:#D3D1C7} .r{fill:#B4B2A9} .note{fill:#888780}
+    .conclusion{fill:#FAFAF7} .concl-sub{fill:#F0997B}
+  }
+</style>
+<rect x="220" y="12" width="240" height="38" rx="19" fill="#E6EAF4" stroke="#1B2A4A" stroke-width="0.5"/>
+<text class="q" x="340" y="35" text-anchor="middle">Tu empresa</text>
+<line x1="340" y1="50" x2="340" y2="80" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="160" y="80" width="360" height="50" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="q" x="340" y="100" text-anchor="middle">¿Usa algún sistema de IA</text>
+<text class="q" x="340" y="116" text-anchor="middle">en su actividad profesional?</text>
+<line x1="520" y1="105" x2="580" y2="105" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl no" x="550" y="97">No</text>
+<rect x="582" y="90" width="80" height="30" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text class="r" x="622" y="109" text-anchor="middle">No aplica</text>
+<line x1="340" y1="130" x2="340" y2="172" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl yes" x="350" y="155">Sí</text>
+<rect x="160" y="172" width="360" height="50" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="q" x="340" y="192" text-anchor="middle">¿El uso es estrictamente</text>
+<text class="q" x="340" y="208" text-anchor="middle">personal y no profesional?</text>
+<line x1="160" y1="197" x2="100" y2="197" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl yes" x="130" y="189">Sí</text>
+<rect x="18" y="182" width="80" height="30" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text class="r" x="58" y="201" text-anchor="middle">No aplica</text>
+<line x1="340" y1="222" x2="340" y2="264" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl no" x="350" y="247">No</text>
+<rect x="160" y="264" width="360" height="50" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="q" x="340" y="284" text-anchor="middle">¿El sistema tiene una excepción</text>
+<text class="q" x="340" y="300" text-anchor="middle">específica en el reglamento?</text>
+<line x1="520" y1="289" x2="580" y2="289" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl yes" x="550" y="281">Sí</text>
+<rect x="582" y="274" width="80" height="30" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text class="r" x="622" y="287" text-anchor="middle">Verificar</text>
+<text class="r" x="622" y="300" text-anchor="middle">excepción</text>
+<line x1="340" y1="314" x2="340" y2="366" stroke="#888780" stroke-width="1" marker-end="url(#arr)"/>
+<text class="lbl no" x="350" y="344">No</text>
+<rect x="140" y="366" width="400" height="64" rx="12" fill="#1B2A4A" stroke="#E07A5F" stroke-width="1.5"/>
+<text class="conclusion" x="340" y="392" text-anchor="middle">El artículo 4 te aplica</text>
+<text class="concl-sub" x="340" y="414" text-anchor="middle">Debes garantizar la alfabetización en IA de tu personal</text>
+<text class="note" x="340" y="460" text-anchor="middle">En la práctica, exceptuar a una empresa del artículo 4</text>
+<text class="note" x="340" y="476" text-anchor="middle">es casi imposible en la economía actual</text>
+</svg>
 
 ### Ejemplos de "responsable del despliegue" en España
 
