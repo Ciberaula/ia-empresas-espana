@@ -13,7 +13,7 @@ tags: ["ai-act", "articulo-4", "alfabetizacion-ia", "formacion-bonificada", "fun
 # El artículo 4 del AI Act: alfabetización en IA obligatoria para empresas
 
 El artículo 4 del Reglamento (UE) 2024/1689 obliga a todas las empresas europeas —sin excepción por tamaño— a garantizar que su personal tenga un nivel suficiente de alfabetización en IA cuando usen sistemas de inteligencia artificial. Está en vigor desde el 2 de febrero de 2025, por lo que las empresas españolas ya están jurídicamente obligadas a cumplirlo. La formación exigida es bonificable con el crédito FUNDAE en los porcentajes que marca la normativa para cada tamaño de empresa.
-{: .lead }
+{: .lead}
 
 **Última actualización:** 19 de abril de 2026
 **Autora:** Ana María González · Directora de Ciberaula
@@ -22,8 +22,8 @@ El artículo 4 del Reglamento (UE) 2024/1689 obliga a todas las empresas europea
 
 ---
 
-<div class="resumen">
-<p class="resumen__titulo">Resumen en 30 segundos</p>
+<div class="resumen" markdown="1">
+Resumen en 30 segundos{: .resumen__titulo}
 <ul>
 <li>El artículo 4 del AI Act obliga a <strong>todas las empresas</strong> que usen o desplieguen IA a garantizar un nivel suficiente de alfabetización en IA de su personal.</li>
 <li>Está <strong>en vigor desde el 2 de febrero de 2025</strong>. Las empresas en incumplimiento están expuestas a sanciones que concretará la normativa española.</li>
@@ -49,7 +49,7 @@ El artículo 4 del Reglamento (UE) 2024/1689 obliga a todas las empresas europea
 
 ## <a id="texto-literal"></a>1. Texto literal del artículo 4
 
-<div class="ficha-normativa">
+<div class="ficha-normativa" markdown="1">
 <dl>
 <dt>Norma</dt><dd>Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024</dd>
 <dt>Nombre común</dt><dd>AI Act · Reglamento de Inteligencia Artificial</dd>
@@ -269,7 +269,7 @@ Sin estos documentos, una inspección puede concluir que la empresa "no ha adopt
 
 Tres escenarios ilustrativos construidos a partir de situaciones que se repiten en la práctica empresarial española. No corresponden a clientes concretos; describen patrones de incumplimiento habituales y su resolución.
 
-<div class="caso-practico">
+<div class="caso-practico" markdown="1">
 <h4>Caso 1: Asesoría fiscal mediana, 28 empleados</h4>
 
 Una asesoría daba acceso a ChatGPT Plus corporativo a toda la plantilla desde 2024. Un cliente detectó que en su declaración aparecían datos de otro cliente; el asesor había pegado literalmente datos en ChatGPT al redactar una consulta técnica.
@@ -279,7 +279,7 @@ Una asesoría daba acceso a ChatGPT Plus corporativo a toda la plantilla desde 2
 **Resolución tipo:** diseño de plan formativo urgente con tres perfiles (socios, asesores, administrativos), formación estructurada para toda la plantilla bonificada con FUNDAE, nueva política interna firmada, contrato con proveedor de IA actualizado a la versión con garantías de no entrenamiento sobre datos. Tiempo de implementación razonable: 4-6 semanas.
 </div>
 
-<div class="caso-practico">
+<div class="caso-practico" markdown="1">
 <h4>Caso 2: Empresa industrial, 180 empleados, sector metalúrgico
 
 Un director de RRHH comienza a usar un ATS con IA para preseleccionar CVs de operarios. Un candidato rechazado solicita ejercer su derecho a no ser objeto de decisiones individuales automatizadas (art. 22 RGPD). La empresa descubre que no puede justificar por qué el algoritmo rechazó al candidato.
@@ -289,7 +289,7 @@ Un director de RRHH comienza a usar un ATS con IA para preseleccionar CVs de ope
 **Resolución tipo:** parada inmediata del uso del ATS mientras se hace evaluación. Formación específica para el personal de RRHH. Reconfiguración del proceso para garantizar supervisión humana genuina (no meramente formal). Actualización de cláusulas informativas en el proceso de selección. Respuesta individualizada al candidato reclamante.
 </div>
 
-<div class="caso-practico">
+<div class="caso-practico" markdown="1">
 <h4>Caso 3: Consultoría tecnológica pequeña, 8 empleados
 
 Un CEO desarrollador veterano piensa que "somos técnicos, no necesitamos formación sobre lo que ya sabemos". Llega una inspección de la AEPD por otra cuestión no relacionada. En la entrevista, el inspector pregunta cómo se garantiza el cumplimiento del artículo 4 del AI Act dado que la empresa usa GitHub Copilot, Claude API y ChatGPT Team. No hay formación documentada.
@@ -341,7 +341,7 @@ La formación sobre artículo 4 se puede bonificar en las tres modalidades FUNDA
 > **Los 2 plazos críticos** que anulan la bonificación si se incumplen:
 > - **Comunicación de inicio del grupo**: 2 días naturales antes del comienzo.
 > - **Cancelación o modificación**: 1 día de antelación.
-{: .callout-danger }
+{: .callout-danger}
 
 ### Parámetros técnicos obligatorios
 
@@ -402,7 +402,7 @@ Tras más de dos décadas gestionando formación corporativa en España y observ
 ### ¿Cuándo empezaron las obligaciones del artículo 4?
 
 > El artículo 4 está **en vigor desde el 2 de febrero de 2025**. Las empresas que no han adoptado medidas están en **incumplimiento ya hoy**.
-{: .callout-warning }
+{: .callout-warning}
 
 Las empresas que no han hecho nada están expuestas al régimen sancionador que desarrolle España sobre la base del artículo 99 del Reglamento.
 
@@ -444,7 +444,7 @@ Principalmente con evaluaciones de aprendizaje (tests) y, más allá, con evalua
 
 ---
 
-<div class="cta-formacion">
+<div class="cta-formacion" markdown="1">
 <h3>¿Necesitas cumplir el artículo 4 en tu empresa?</h3>
 <p>Ciberaula diseña planes formativos completos para cumplir el AI Act: inventario de perfiles, contenidos por rol, ejecución bonificada FUNDAE y documentación auditable. Más de 28 años formando a empresas españolas.</p>
 <a href="https://www.ciberaula.com/cursos-bonificados/" class="cta-boton">Ver cursos bonificables →</a>
