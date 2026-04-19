@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner corporativo — ancho completo, altura reducida */
+/* Banner corporativo */
 .ciberaula-banner-fullwidth {
   width: 100%;
   max-width: 100%;
@@ -20,7 +20,7 @@
   object-position: left center;
 }
 
-/* Ocultar banner duplicado dentro del markdown */
+/* Ocultar banner duplicado en markdown */
 .main-content > p:first-child > img[src*="banner"],
 .main-content > img[src*="banner"] {
   display: none !important;
@@ -29,25 +29,36 @@
   display: none !important;
 }
 
-/* Ocultar el site-footer del sidebar */
+/* Ocultar site-footer del sidebar */
 .side-bar .site-footer {
   display: none !important;
 }
 
-/* Footer corporativo — full viewport width, rompiendo el sidebar */
+/* Footer corporativo — full viewport, ignorando el margin-left del sidebar */
 .ciberaula-footer {
+  position: relative !important;
+  left: 0 !important;
   width: 100vw !important;
-  margin-left: calc(-1 * var(--sidebar-width, 264px)) !important;
-  padding-left: calc(var(--sidebar-width, 264px) + 4%) !important;
-  padding-right: 4% !important;
+  margin-left: 0 !important;
+  padding: 2.5rem 4% 0 !important;
   box-sizing: border-box !important;
 }
 
-@media (max-width: 799px) {
+@media (min-width: 50rem) {
+  /* En desktop, el footer hereda el margin-left de .main.
+     Lo compensamos con position y left negativos */
   .ciberaula-footer {
-    margin-left: 0 !important;
-    padding-left: 4% !important;
-    width: 100% !important;
+    margin-left: -15.5rem !important;
+    width: 100vw !important;
+    padding-left: calc(15.5rem + 4%) !important;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .ciberaula-footer {
+    margin-left: calc(-1 * Max(16.5rem, calc((100% - 66.5rem) / 2 + 16.5rem))) !important;
+    width: 100vw !important;
+    padding-left: calc(Max(16.5rem, calc((100vw - 66.5rem) / 2 + 16.5rem)) + 4%) !important;
   }
 }
 </style>
