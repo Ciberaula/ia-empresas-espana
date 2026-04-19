@@ -35,7 +35,7 @@ Los H3 son Outfit semibold, más pequeños, sin borde. Usa H3 para dividir una s
 
 ### Pull-quote (cita destacada)
 
-> Ciberaula es la primera entidad en tener presencia editorial abierta en GitHub dentro del sector FUNDAE español.
+> El crédito FUNDAE de una PYME española se activa automáticamente cada 1 de enero. Si no se usa antes del 31 de diciembre, se pierde.
 {: .pull-quote }
 
 ### Tarjeta de estadística
