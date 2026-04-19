@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner corporativo — ancho de página, altura reducida */
+/* Banner corporativo — ancho completo, altura reducida */
 .ciberaula-banner-fullwidth {
   width: 100%;
   max-width: 100%;
@@ -29,8 +29,25 @@
   display: none !important;
 }
 
-/* Ocultar el site-footer del sidebar (reemplazado por footer corporativo) */
+/* Ocultar el site-footer del sidebar */
 .side-bar .site-footer {
   display: none !important;
+}
+
+/* Footer corporativo — full viewport width, rompiendo el sidebar */
+.ciberaula-footer {
+  width: 100vw !important;
+  margin-left: calc(-1 * var(--sidebar-width, 264px)) !important;
+  padding-left: calc(var(--sidebar-width, 264px) + 4%) !important;
+  padding-right: 4% !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 799px) {
+  .ciberaula-footer {
+    margin-left: 0 !important;
+    padding-left: 4% !important;
+    width: 100% !important;
+  }
 }
 </style>
