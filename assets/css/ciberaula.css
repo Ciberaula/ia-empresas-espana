@@ -931,6 +931,17 @@ h1, .main-content h1 {
   padding-top: 2.5rem;
   border-top: 1px solid #E4E0DA;
   font-family: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+  /* Full-width: rompe el contenedor del layout */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: max(2rem, calc((100vw - 1100px) / 2));
+  padding-right: max(2rem, calc((100vw - 1100px) / 2));
+  background: #FAFAF7;
+  box-sizing: border-box;
 }
 
 .ciberaula-footer__top {
@@ -1027,4 +1038,5 @@ h1, .main-content h1 {
   gap: 1.25rem;
   flex-wrap: wrap;
 }
+
 
