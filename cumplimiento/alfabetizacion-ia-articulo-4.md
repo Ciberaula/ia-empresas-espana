@@ -22,8 +22,8 @@ El artículo 4 del Reglamento (UE) 2024/1689 obliga a todas las empresas europea
 
 ---
 
-<div class="resumen" markdown="1">
-Resumen en 30 segundos{: .resumen__titulo}
+<div class="resumen">
+<p class="resumen__titulo">Resumen en 30 segundos</p>
 <ul>
 <li>El artículo 4 del AI Act obliga a <strong>todas las empresas</strong> que usen o desplieguen IA a garantizar un nivel suficiente de alfabetización en IA de su personal.</li>
 <li>Está <strong>en vigor desde el 2 de febrero de 2025</strong>. Las empresas en incumplimiento están expuestas a sanciones que concretará la normativa española.</li>
@@ -49,7 +49,7 @@ Resumen en 30 segundos{: .resumen__titulo}
 
 ## <a id="texto-literal"></a>1. Texto literal del artículo 4
 
-<div class="ficha-normativa" markdown="1">
+<div class="ficha-normativa">
 <dl>
 <dt>Norma</dt><dd>Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024</dd>
 <dt>Nombre común</dt><dd>AI Act · Reglamento de Inteligencia Artificial</dd>
@@ -269,34 +269,25 @@ Sin estos documentos, una inspección puede concluir que la empresa "no ha adopt
 
 Tres escenarios ilustrativos construidos a partir de situaciones que se repiten en la práctica empresarial española. No corresponden a clientes concretos; describen patrones de incumplimiento habituales y su resolución.
 
-<div class="caso-practico" markdown="1">
+<div class="caso-practico">
 <h4>Caso 1: Asesoría fiscal mediana, 28 empleados</h4>
-
-Una asesoría daba acceso a ChatGPT Plus corporativo a toda la plantilla desde 2024. Un cliente detectó que en su declaración aparecían datos de otro cliente; el asesor había pegado literalmente datos en ChatGPT al redactar una consulta técnica.
-
-**Evaluación del incumplimiento:** ausencia total de formación documentada sobre uso responsable de IA. Incumplimiento del artículo 4. Además, vulneración del RGPD por transferencia no consentida de datos fiscales a un tercero (OpenAI).
-
-**Resolución tipo:** diseño de plan formativo urgente con tres perfiles (socios, asesores, administrativos), formación estructurada para toda la plantilla bonificada con FUNDAE, nueva política interna firmada, contrato con proveedor de IA actualizado a la versión con garantías de no entrenamiento sobre datos. Tiempo de implementación razonable: 4-6 semanas.
+<p>Una asesoría daba acceso a ChatGPT Plus corporativo a toda la plantilla desde 2024. Un cliente detectó que en su declaración aparecían datos de otro cliente; el asesor había pegado literalmente datos en ChatGPT al redactar una consulta técnica.</p>
+<p><strong>Evaluación del incumplimiento:</strong> ausencia total de formación documentada sobre uso responsable de IA. Incumplimiento del artículo 4. Además, vulneración del RGPD por transferencia no consentida de datos fiscales a un tercero (OpenAI).</p>
+<p><strong>Resolución tipo:</strong> diseño de plan formativo urgente con tres perfiles (socios, asesores, administrativos), formación estructurada para toda la plantilla bonificada con FUNDAE, nueva política interna firmada, contrato con proveedor de IA actualizado a la versión con garantías de no entrenamiento sobre datos. Tiempo de implementación razonable: 4-6 semanas.</p>
 </div>
 
-<div class="caso-practico" markdown="1">
-<h4>Caso 2: Empresa industrial, 180 empleados, sector metalúrgico
-
-Un director de RRHH comienza a usar un ATS con IA para preseleccionar CVs de operarios. Un candidato rechazado solicita ejercer su derecho a no ser objeto de decisiones individuales automatizadas (art. 22 RGPD). La empresa descubre que no puede justificar por qué el algoritmo rechazó al candidato.
-
-**Evaluación del incumplimiento:** múltiple. (1) Ausencia de formación del personal RRHH sobre el sistema IA usado, incumple artículo 4. (2) Ausencia de supervisión humana significativa, previsible incumplimiento de alto riesgo cuando el capítulo correspondiente sea aplicable desde agosto 2026. (3) Falta de información al candidato sobre el uso de IA en el proceso, vulneración del artículo 22 RGPD.
-
-**Resolución tipo:** parada inmediata del uso del ATS mientras se hace evaluación. Formación específica para el personal de RRHH. Reconfiguración del proceso para garantizar supervisión humana genuina (no meramente formal). Actualización de cláusulas informativas en el proceso de selección. Respuesta individualizada al candidato reclamante.
+<div class="caso-practico">
+<h4>Caso 2: Empresa industrial, 180 empleados, sector metalúrgico</h4>
+<p>Un director de RRHH comienza a usar un ATS con IA para preseleccionar CVs de operarios. Un candidato rechazado solicita ejercer su derecho a no ser objeto de decisiones individuales automatizadas (art. 22 RGPD). La empresa descubre que no puede justificar por qué el algoritmo rechazó al candidato.</p>
+<p><strong>Evaluación del incumplimiento:</strong> múltiple. (1) Ausencia de formación del personal RRHH sobre el sistema IA usado, incumple artículo 4. (2) Ausencia de supervisión humana significativa, previsible incumplimiento de alto riesgo cuando el capítulo correspondiente sea aplicable desde agosto 2026. (3) Falta de información al candidato sobre el uso de IA en el proceso, vulneración del artículo 22 RGPD.</p>
+<p><strong>Resolución tipo:</strong> parada inmediata del uso del ATS mientras se hace evaluación. Formación específica para el personal de RRHH. Reconfiguración del proceso para garantizar supervisión humana genuina (no meramente formal). Actualización de cláusulas informativas en el proceso de selección. Respuesta individualizada al candidato reclamante.</p>
 </div>
 
-<div class="caso-practico" markdown="1">
-<h4>Caso 3: Consultoría tecnológica pequeña, 8 empleados
-
-Un CEO desarrollador veterano piensa que "somos técnicos, no necesitamos formación sobre lo que ya sabemos". Llega una inspección de la AEPD por otra cuestión no relacionada. En la entrevista, el inspector pregunta cómo se garantiza el cumplimiento del artículo 4 del AI Act dado que la empresa usa GitHub Copilot, Claude API y ChatGPT Team. No hay formación documentada.
-
-**Evaluación del incumplimiento:** incumplimiento del artículo 4 a pesar del nivel técnico de los empleados. La "alfabetización implícita por ser técnicos" no es una figura que reconozca el reglamento.
-
-**Resolución tipo:** formación con módulo técnico avanzado específico para equipos de desarrollo que integran IA (seguridad, prompt injection, auditoría de código generado), bonificada con el crédito FUNDAE disponible de ejercicios anteriores acumulados. Certificados para cada empleado. Política interna redactada y firmada.
+<div class="caso-practico">
+<h4>Caso 3: Consultoría tecnológica pequeña, 8 empleados</h4>
+<p>Un CEO desarrollador veterano piensa que "somos técnicos, no necesitamos formación sobre lo que ya sabemos". Llega una inspección de la AEPD por otra cuestión no relacionada. En la entrevista, el inspector pregunta cómo se garantiza el cumplimiento del artículo 4 del AI Act dado que la empresa usa GitHub Copilot, Claude API y ChatGPT Team. No hay formación documentada.</p>
+<p><strong>Evaluación del incumplimiento:</strong> incumplimiento del artículo 4 a pesar del nivel técnico de los empleados. La "alfabetización implícita por ser técnicos" no es una figura que reconozca el reglamento.</p>
+<p><strong>Resolución tipo:</strong> formación con módulo técnico avanzado específico para equipos de desarrollo que integran IA (seguridad, prompt injection, auditoría de código generado), bonificada con el crédito FUNDAE disponible de ejercicios anteriores acumulados. Certificados para cada empleado. Política interna redactada y firmada.</p>
 </div>
 
 ---
@@ -338,10 +329,13 @@ La formación sobre artículo 4 se puede bonificar en las tres modalidades FUNDA
 - **Mixta** (teoría online más sesiones en directo por videoconferencia). Buena para resolución de dudas reales.
 - **Presencial** (aula física o aula virtual en directo). Recomendable para grupos reducidos o contenidos muy sensibles.
 
-> **Los 2 plazos críticos** que anulan la bonificación si se incumplen:
-> - **Comunicación de inicio del grupo**: 2 días naturales antes del comienzo.
-> - **Cancelación o modificación**: 1 día de antelación.
-{: .callout-danger}
+<blockquote class="callout-danger">
+<p><strong>Los 2 plazos críticos</strong> que anulan la bonificación si se incumplen:</p>
+<ul>
+<li><strong>Comunicación de inicio del grupo</strong>: 2 días naturales antes del comienzo.</li>
+<li><strong>Cancelación o modificación</strong>: 1 día de antelación.</li>
+</ul>
+</blockquote>
 
 ### Parámetros técnicos obligatorios
 
@@ -401,8 +395,9 @@ Tras más de dos décadas gestionando formación corporativa en España y observ
 
 ### ¿Cuándo empezaron las obligaciones del artículo 4?
 
-> El artículo 4 está **en vigor desde el 2 de febrero de 2025**. Las empresas que no han adoptado medidas están en **incumplimiento ya hoy**.
-{: .callout-warning}
+<blockquote class="callout-warning">
+<p>El artículo 4 está <strong>en vigor desde el 2 de febrero de 2025</strong>. Las empresas que no han adoptado medidas están en <strong>incumplimiento ya hoy</strong>.</p>
+</blockquote>
 
 Las empresas que no han hecho nada están expuestas al régimen sancionador que desarrolle España sobre la base del artículo 99 del Reglamento.
 
@@ -444,7 +439,7 @@ Principalmente con evaluaciones de aprendizaje (tests) y, más allá, con evalua
 
 ---
 
-<div class="cta-formacion" markdown="1">
+<div class="cta-formacion">
 <h3>¿Necesitas cumplir el artículo 4 en tu empresa?</h3>
 <p>Ciberaula diseña planes formativos completos para cumplir el AI Act: inventario de perfiles, contenidos por rol, ejecución bonificada FUNDAE y documentación auditable. Más de 28 años formando a empresas españolas.</p>
 <a href="https://www.ciberaula.com/cursos-bonificados/" class="cta-boton">Ver cursos bonificables →</a>
