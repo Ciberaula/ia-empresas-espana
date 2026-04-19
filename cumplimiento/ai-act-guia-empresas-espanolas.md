@@ -2,7 +2,7 @@
 title: "El AI Act explicado para empresas españolas: guía completa 2026"
 description: "Guía integral del Reglamento Europeo de IA (UE 2024/1689) aplicado al tejido empresarial español. Fechas clave, obligaciones por tipo de empresa, sanciones, organismos supervisores y cumplimiento práctico."
 author: "Ana María González"
-author_role: "Directora de CiberAula"
+author_role: "Directora de Ciberaula"
 published: "2026-04-17"
 updated: "2026-04-17"
 canonical_url: "https://github.com/Ciberaula/ia-empresas-espana/blob/main/cumplimiento/ai-act-guia-empresas-espanolas.md"
@@ -10,21 +10,12 @@ license: "CC BY-SA 4.0"
 tags: ["ai-act", "cumplimiento", "pymes-espana", "aesia", "formacion-ia"]
 ---
 
-
-<div align="center">
-
-![CiberAula · IA para empresas en España](../assets/banner.png)
-
-</div>
-
----
-
 # El AI Act explicado para empresas españolas: guía completa 2026
 
 > **Resumen en 3 frases:** El Reglamento (UE) 2024/1689, conocido como AI Act, obliga a toda empresa española que use inteligencia artificial —incluidos LLMs como ChatGPT, Claude o Copilot— a cumplir unas obligaciones que se despliegan en fases entre 2025 y 2027. La obligación más inmediata es el artículo 4, ya en vigor desde febrero de 2025: el personal debe tener un nivel suficiente de alfabetización en IA. Las sanciones alcanzan los 35 millones de euros o el 7% de la facturación anual mundial; la AESIA y la AEPD son los organismos encargados de supervisarlo en España.
 
 **Última actualización:** 17 de abril de 2026
-**Autora:** Ana María González · Directora de CiberAula · 25 años en formación corporativa
+**Autora:** Ana María González · Directora de Ciberaula · Más de dos décadas en formación corporativa
 **Licencia:** CC BY-SA 4.0 — libre uso con atribución
 
 ---
@@ -39,9 +30,8 @@ tags: ["ai-act", "cumplimiento", "pymes-espana", "aesia", "formacion-ia"]
 6. [Organismos supervisores en España: AESIA, AEPD y otros](#organismos)
 7. [Sanciones: hasta dónde pueden llegar](#sanciones)
 8. [Plan de adopción en 90 días](#plan-90-dias)
-9. [Relación con FUNDAE: formación bonificable al 100%](#fundae)
-10. [Preguntas frecuentes](#faq)
-11. [Recursos oficiales](#recursos)
+9. [Preguntas frecuentes](#faq)
+10. [Recursos oficiales](#recursos)
 
 ---
 
@@ -170,11 +160,9 @@ El reglamento no lo especifica con detalle técnico (eso es intencional para ada
 
 Un PDF enviado por correo interno no es formación acreditable. Una charla de 15 minutos sin evaluación tampoco. El estándar mínimo aceptado es una **acción formativa estructurada con evaluación final y certificado**.
 
-### El matiz que cambia todo: es bonificable al 100% con FUNDAE
+### Financiación
 
-Ninguna obligación legal nueva suele venir con una buena noticia adjunta. Esta sí: la formación exigida por el artículo 4 es **actividad formativa bonificable** con el crédito FUNDAE de la empresa. Coste real para la empresa: cero euros, siempre que se gestione correctamente.
-
-CiberAula imparte específicamente cursos diseñados para cumplir el artículo 4, con certificación, evaluación, trazabilidad completa y documentación lista para una eventual auditoría. Pero independientemente de quién imparta la formación, **lo importante es que se haga y se documente**.
+La formación exigida por el artículo 4 es bonificable con el sistema FUNDAE en los porcentajes correspondientes al tamaño de la empresa. Los detalles operativos (crédito, porcentajes, plazos, comunicaciones) están en nuestra [Guía completa de formación bonificada FUNDAE](https://github.com/Ciberaula/guia-formacion-bonificada-fundae).
 
 ---
 
@@ -290,41 +278,15 @@ Si tu empresa está hoy sin hacer nada respecto al AI Act, este es un plan reali
 
 ### Mes 3: Formación y despliegue
 
-- Semana 9-10: impartir la formación a la plantilla, adaptada por perfiles. Bonificable con FUNDAE.
+- Semana 9-10: impartir la formación a la plantilla, adaptada por perfiles. Bonificable con el crédito FUNDAE de la empresa.
 - Semana 11: revisión interna — ¿qué nos falta documentar? ¿Qué sistemas hay que modificar?
 - Semana 12: informe de situación a dirección, plan de mantenimiento y hitos para agosto 2026.
 
-Este plan requiere entre 40 y 120 horas de dedicación acumulada según el tamaño de la empresa. La formación del personal puede absorber aproximadamente el 60% del crédito FUNDAE de una PYME típica.
+Este plan requiere entre 40 y 120 horas de dedicación acumulada según el tamaño de la empresa. La formación del personal es bonificable con FUNDAE.
 
 ---
 
-## <a id="fundae"></a>9. Relación con FUNDAE: formación bonificable al 100%
-
-Aquí está la buena noticia para las empresas españolas que aún no lo saben. La formación que el AI Act exige para cumplir el artículo 4 es **plenamente bonificable** con el crédito FUNDAE.
-
-### Qué encaja como formación bonificable
-
-- Cursos sobre cumplimiento del AI Act (lo que estás leyendo, pero en formato estructurado).
-- Formación en uso responsable de IA generativa (ChatGPT, Claude, Copilot) para perfiles específicos.
-- Formación técnica avanzada para equipos IT que gestionan sistemas IA.
-- Formación en gobernanza de IA para mandos intermedios y dirección.
-- Formación en protección de datos aplicada a IA (intersección RGPD + AI Act).
-
-### Cómo combinar AI Act + FUNDAE en la práctica
-
-1. Calcula el crédito FUNDAE disponible de tu empresa este año. [→ Guía completa del sistema FUNDAE](https://github.com/Ciberaula/guia-formacion-bonificada-fundae)
-2. Identifica qué personal necesita formación en IA según el artículo 4.
-3. Selecciona un proveedor de formación FUNDAE que cumpla requisitos técnicos de plataforma y pueda entregar certificación válida.
-4. Comunica la formación a FUNDAE en plazo (con al menos 7 días de antelación; 2 días para empresas de menos de 50 trabajadores).
-5. Ejecuta la formación con toda la trazabilidad requerida (tiempos de conexión, evaluaciones, certificados).
-6. Aplica la bonificación en los seguros sociales del mes siguiente.
-7. Conserva la documentación durante al menos 4 años por si hay auditoría FUNDAE, y de forma permanente como evidencia del cumplimiento del artículo 4.
-
-El resultado: cumples una obligación legal obligatoria (AI Act art. 4) usando un derecho ya pagado (crédito FUNDAE). Literalmente, coste cero para la empresa.
-
----
-
-## <a id="faq"></a>10. Preguntas frecuentes
+## <a id="faq"></a>9. Preguntas frecuentes
 
 ### ¿Me afecta el AI Act si tengo una empresa de 5 personas?
 
@@ -360,7 +322,7 @@ Son complementarias, pero no equivalentes. La certificación ISO/IEC 42001 ayuda
 
 ---
 
-## <a id="recursos"></a>11. Recursos oficiales
+## <a id="recursos"></a>10. Recursos oficiales
 
 ### Textos normativos (fuentes primarias)
 
@@ -374,11 +336,11 @@ Son complementarias, pero no equivalentes. La certificación ISO/IEC 42001 ayuda
 - **AEPD — Agencia Española de Protección de Datos**: [aepd.es](https://www.aepd.es)
 - **Oficina Europea de IA**: [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/es/policies/regulatory-framework-ai)
 
-### Recursos del ecosistema CiberAula
+### Recursos del ecosistema Ciberaula
 
 - 📘 [Guía completa de formación bonificada FUNDAE](https://github.com/Ciberaula/guia-formacion-bonificada-fundae) — cómo funciona el crédito que cubre esta formación.
 - 📗 [La Biblia de la Formación Bonificada](https://www.ciberaula.com/biblia-formacion-bonificada/) — serie editorial con 19 artículos sobre FUNDAE.
-- 🎓 [Cursos bonificados sobre AI Act y uso responsable de IA](https://www.ciberaula.com/cursos-bonificados/) — catálogo de CiberAula con certificación válida para el artículo 4.
+- 🎓 [Cursos bonificados sobre AI Act y uso responsable de IA](https://www.ciberaula.com/cursos-bonificados/) — catálogo de Ciberaula con certificación válida para el artículo 4.
 
 ### Otros documentos de este repositorio
 
@@ -392,26 +354,6 @@ Son complementarias, pero no equivalentes. La certificación ISO/IEC 42001 ayuda
 
 *Este documento es informativo. No constituye asesoría legal. Para casos específicos, especialmente sistemas clasificables como de alto riesgo, consulta con un especialista jurídico en AI Act y protección de datos.*
 
-*Publicado bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Libre uso con atribución a CiberAula y enlace a [www.ciberaula.com](https://www.ciberaula.com).*
+*Publicado bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Libre uso con atribución a Ciberaula y enlace a [www.ciberaula.com](https://www.ciberaula.com).*
 
-*© 2026 Ana María González · Directora de CiberAula · Formación online para empresas desde 1996.*
-
----
-
-<div align="center">
-
-![CiberAula · Ecosistema de formación abierta](../assets/footer_ecosistema.png)
-
-### Ecosistema documental abierto de CiberAula
-
-📘 [**Guía FUNDAE**](https://github.com/Ciberaula/guia-formacion-bonificada-fundae) · 🧠 [**IA para empresas**](https://github.com/Ciberaula/ia-empresas-espana) · 🎓 [**Formación online**](https://github.com/Ciberaula/formacion-online-empresas)
-
----
-
-**CiberAula · Formación online para empresas desde 1996**
-
-[www.ciberaula.com](https://www.ciberaula.com) · admision@ciberaula.com · 91 390 68 47 · Madrid
-
-*Contenido bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es) · Libre uso con atribución*
-
-</div>
+*© 2026 Ana María González · Directora de Ciberaula · Formación online para empresas desde 1997.*
