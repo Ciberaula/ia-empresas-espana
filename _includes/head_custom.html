@@ -3,60 +3,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner corporativo full-width pegado arriba */
-.ciberaula-banner-wrap {
+/* Banner corporativo full-width — inyectado desde _layouts/default.html */
+.ciberaula-banner-fullwidth {
   width: 100%;
   line-height: 0;
   background: #0d2137;
 }
-.ciberaula-banner-wrap img {
+.ciberaula-banner-fullwidth img {
   width: 100%;
   height: auto;
   display: block;
-  max-height: 160px;
+  max-height: 150px;
   object-fit: cover;
 }
+/* Ocultar el banner que viene dentro del markdown (duplicado) */
+.main-content > p:first-child > img[src*="banner"],
+.main-content > img[src*="banner"] {
+  display: none !important;
+}
+.main-content > p:first-child:has(img[src*="banner"]) {
+  display: none !important;
+}
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var mainContent = document.querySelector('.main-content');
-  if (!mainContent) return;
-  
-  // Find the banner img inside content
-  var bannerImg = mainContent.querySelector('img[alt*="CiberAula"][src*="banner"]');
-  if (!bannerImg) return;
-  
-  // Create full-width wrapper
-  var wrapper = document.createElement('div');
-  wrapper.className = 'ciberaula-banner-wrap';
-  var newImg = document.createElement('img');
-  newImg.src = bannerImg.src;
-  newImg.alt = bannerImg.alt;
-  wrapper.appendChild(newImg);
-  
-  // Insert into .main, right after the site-header (navigation bar)
-  var mainDiv = document.querySelector('.main');
-  var siteHeader = document.querySelector('.site-header');
-  if (mainDiv && siteHeader) {
-    siteHeader.parentNode.insertBefore(wrapper, siteHeader.nextSibling);
-  }
-  
-  // Remove original banner from content
-  var bannerParent = bannerImg.parentElement;
-  if (bannerParent) {
-    if (bannerParent.children.length === 1 && ['P','DIV'].includes(bannerParent.tagName)) {
-      // Also remove adjacent <hr> if present
-      var nextEl = bannerParent.nextElementSibling;
-      if (nextEl && nextEl.tagName === 'HR') nextEl.remove();
-      bannerParent.remove();
-    } else {
-      bannerImg.remove();
-    }
-  }
-  
-  // Remove leading <hr> in content if it's the first element now
-  var firstChild = mainContent.querySelector(':scope > :first-child');
-  if (firstChild && firstChild.tagName === 'HR') firstChild.remove();
-});
-</script>
