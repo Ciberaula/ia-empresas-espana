@@ -3,20 +3,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner corporativo full-width — inyectado desde _layouts/default.html */
+/* Banner corporativo — ancho de página, altura reducida */
 .ciberaula-banner-fullwidth {
   width: 100%;
+  max-width: 100%;
   line-height: 0;
   background: #0d2137;
+  overflow: hidden;
 }
 .ciberaula-banner-fullwidth img {
   width: 100%;
   height: auto;
   display: block;
-  max-height: 150px;
+  max-height: 105px;
   object-fit: cover;
+  object-position: left center;
 }
-/* Ocultar el banner que viene dentro del markdown (duplicado) */
+
+/* Ocultar banner duplicado dentro del markdown */
 .main-content > p:first-child > img[src*="banner"],
 .main-content > img[src*="banner"] {
   display: none !important;
