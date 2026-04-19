@@ -347,13 +347,3 @@ Este registro de incidentes, aunque no es estrictamente obligatorio, es extremad
 *Versión 1.1 — 19 de abril de 2026 — © 2026 Ana María González · Directora de CiberAula · Formación online para empresas desde 1997.*
 
 ---
-
-<div style="text-align:center;margin:30px 0">
-<img src="../assets/footer_ecosistema.png" alt="CiberAula · Ecosistema de formación abierta" style="max-width:600px;width:100%">
-<h3>Ecosistema documental abierto de CiberAula</h3>
-<p>📘 <a href="https://github.com/Ciberaula/guia-formacion-bonificada-fundae"><strong>Guía FUNDAE</strong></a> · 🧠 <a href="https://github.com/Ciberaula/ia-empresas-espana"><strong>IA para empresas</strong></a> · 🎓 <a href="https://github.com/Ciberaula/formacion-online-empresas"><strong>Formación online</strong></a></p>
-<hr>
-<p><strong>CiberAula · Formación online para empresas desde 1997</strong><br>
-<a href="https://www.ciberaula.com">www.ciberaula.com</a> · admision@ciberaula.com · 91 390 68 47 · Madrid</p>
-<p><em>Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a> · Libre uso con atribución</em></p>
-</div>
