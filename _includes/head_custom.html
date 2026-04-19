@@ -3,61 +3,60 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner corporativo full-width */
+/* Banner corporativo full-width pegado arriba */
 .ciberaula-banner-wrap {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  margin-left: -50vw;
-  margin-bottom: 2rem;
+  width: 100%;
   line-height: 0;
+  background: #0d2137;
 }
 .ciberaula-banner-wrap img {
   width: 100%;
   height: auto;
   display: block;
+  max-height: 160px;
+  object-fit: cover;
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 1. Move banner from content to full-width position
   var mainContent = document.querySelector('.main-content');
   if (!mainContent) return;
   
-  // Find the banner img inside content (the one from markdown)
+  // Find the banner img inside content
   var bannerImg = mainContent.querySelector('img[alt*="CiberAula"][src*="banner"]');
-  if (bannerImg) {
-    // Create full-width wrapper
-    var wrapper = document.createElement('div');
-    wrapper.className = 'ciberaula-banner-wrap';
-    var newImg = document.createElement('img');
-    newImg.src = bannerImg.src;
-    newImg.alt = bannerImg.alt;
-    wrapper.appendChild(newImg);
-    
-    // Insert before main-content, inside main-content-wrap
-    var mainContentWrap = document.querySelector('.main-content-wrap');
-    if (mainContentWrap) {
-      mainContentWrap.insertBefore(wrapper, mainContentWrap.firstChild);
-    }
-    
-    // Remove original banner from content
-    var bannerParent = bannerImg.parentElement;
-    if (bannerParent) {
-      // Remove the parent element too if it's just a wrapper (p, div, etc.)
-      if (bannerParent.children.length === 1 && ['P','DIV'].includes(bannerParent.tagName)) {
-        bannerParent.remove();
-      } else {
-        bannerImg.remove();
-      }
-    }
-    
-    // Also remove the <hr> that typically follows the banner
-    var firstHr = mainContent.querySelector('hr');
-    if (firstHr && firstHr === mainContent.children[0]) {
-      firstHr.remove();
+  if (!bannerImg) return;
+  
+  // Create full-width wrapper
+  var wrapper = document.createElement('div');
+  wrapper.className = 'ciberaula-banner-wrap';
+  var newImg = document.createElement('img');
+  newImg.src = bannerImg.src;
+  newImg.alt = bannerImg.alt;
+  wrapper.appendChild(newImg);
+  
+  // Insert into .main, right after the site-header (navigation bar)
+  var mainDiv = document.querySelector('.main');
+  var siteHeader = document.querySelector('.site-header');
+  if (mainDiv && siteHeader) {
+    siteHeader.parentNode.insertBefore(wrapper, siteHeader.nextSibling);
+  }
+  
+  // Remove original banner from content
+  var bannerParent = bannerImg.parentElement;
+  if (bannerParent) {
+    if (bannerParent.children.length === 1 && ['P','DIV'].includes(bannerParent.tagName)) {
+      // Also remove adjacent <hr> if present
+      var nextEl = bannerParent.nextElementSibling;
+      if (nextEl && nextEl.tagName === 'HR') nextEl.remove();
+      bannerParent.remove();
+    } else {
+      bannerImg.remove();
     }
   }
+  
+  // Remove leading <hr> in content if it's the first element now
+  var firstChild = mainContent.querySelector(':scope > :first-child');
+  if (firstChild && firstChild.tagName === 'HR') firstChild.remove();
 });
 </script>
