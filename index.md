@@ -5,8 +5,6 @@ description: "Guía práctica para la adopción de IA en empresas españolas cum
 
 # IA para empresas en España
 
-![CiberAula · Entidad organizadora de formación bonificada](assets/banner.png)
-
 Guía abierta para que las empresas españolas adopten inteligencia artificial cumpliendo con el AI Act y aprovechando el crédito FUNDAE.
 
 ## 🔥 Pilar 1 — Cumplimiento del AI Act
@@ -26,3 +24,4 @@ Guía abierta para que las empresas españolas adopten inteligencia artificial c
 ---
 
 *Mantenido por Ana María González · Directora de CiberAula · Licencia CC BY-SA 4.0*
+
