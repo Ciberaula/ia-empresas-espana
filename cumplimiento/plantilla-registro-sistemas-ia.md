@@ -292,21 +292,13 @@ A continuación, 5 registros realistas que cubren los niveles de riesgo mínimo,
 Una vez cumplimentado, revisa tu registro con estas preguntas clave:
 
 <div style="background:#F5F3EF;border-radius:10px;padding:20px 24px;margin:20px 0">
-
-**1. ¿Hay sistemas de alto riesgo?** → ¿Están todas las obligaciones del artículo 6+ planificadas para agosto 2026?
-
-**2. ¿Hay sistemas prohibidos?** → Retirarlos inmediatamente.
-
-**3. ¿Hay chatbots o contenido generativo para el público?** → Verificar transparencia: identificación como IA + etiquetado de contenido.
-
-**4. ¿Hay sistemas con datos personales sin garantía de no-entrenamiento?** → Revisar contratos o cambiar de proveedor.
-
-**5. ¿Hay sistemas sin responsable interno asignado?** → Asignarlo ahora.
-
-**6. ¿Hay sistemas sin política de uso aplicada?** → Actualizar la política interna.
-
-**7. ¿Hay shadow AI detectado?** → Formalizar o prohibir, documentando la decisión.
-
+<p><strong>1. ¿Hay sistemas de alto riesgo?</strong> → ¿Están todas las obligaciones del artículo 6+ planificadas para agosto 2026?</p>
+<p><strong>2. ¿Hay sistemas prohibidos?</strong> → Retirarlos inmediatamente.</p>
+<p><strong>3. ¿Hay chatbots o contenido generativo para el público?</strong> → Verificar transparencia: identificación como IA + etiquetado de contenido.</p>
+<p><strong>4. ¿Hay sistemas con datos personales sin garantía de no-entrenamiento?</strong> → Revisar contratos o cambiar de proveedor.</p>
+<p><strong>5. ¿Hay sistemas sin responsable interno asignado?</strong> → Asignarlo ahora.</p>
+<p><strong>6. ¿Hay sistemas sin política de uso aplicada?</strong> → Actualizar la política interna.</p>
+<p><strong>7. ¿Hay shadow AI detectado?</strong> → Formalizar o prohibir, documentando la decisión.</p>
 </div>
 
 ---
