@@ -3,12 +3,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <style>
-/* Banner — ancho completo sin desbordamiento */
+/* ── BANNER ── max-width para no extenderse infinitamente */
 .ciberaula-banner-fullwidth {
   width: 100%;
   line-height: 0;
   background: #0d2137;
   overflow: hidden;
+  max-width: 1440px;
 }
 .ciberaula-banner-fullwidth img {
   width: 100%;
@@ -27,15 +28,30 @@
 /* Ocultar site-footer del sidebar */
 .side-bar .site-footer { display: none !important; }
 
-/* Footer — 100% del ancho real de la página, sin scroll horizontal */
-.ciberaula-footer {
-  width: 100% !important;
-  margin-left: 0 !important;
-  padding: 2.5rem 4% 0 !important;
-  box-sizing: border-box !important;
-  overflow: hidden !important;
+/* ── SVG centrado ── sobreescribir max-width del contenido */
+.main-content div[style*="display:flex"][style*="justify-content:center"] {
+  max-width: none !important;
 }
 
-/* Evitar scroll horizontal en body */
+/* ── FOOTER ── full-width cuando está en body (movido por JS) */
+body > .ciberaula-footer {
+  width: 100% !important;
+  max-width: 1440px;
+  margin: 0 !important;
+  padding: 2.5rem 4% 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Evitar scroll horizontal */
 body { overflow-x: hidden; }
 </style>
+
+<script>
+// Mover el footer corporativo al final del body (fuera de .main y del sidebar)
+document.addEventListener('DOMContentLoaded', function() {
+  var footer = document.querySelector('.ciberaula-footer');
+  if (footer) {
+    document.body.appendChild(footer);
+  }
+});
+</script>
