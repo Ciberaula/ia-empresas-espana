@@ -16,7 +16,9 @@ tags: ["plantilla", "inventario-ia", "ai-act", "registro", "cumplimiento"]
 > **Resumen:** Plantilla descargable en Excel para documentar todos los sistemas de IA que utiliza tu empresa. Incluye 15 campos por sistema, clasificación de riesgo guiada, ejemplos realistas cumplimentados y un árbol de decisión para determinar el nivel de riesgo. Lista para usar con los datos de tu organización y demostrar cumplimiento ante AESIA o AEPD.
 
 **Tipo de documento:** Plantilla descargable + guía de cumplimentación
+
 **Autora:** Ana María González · Directora de CiberAula
+
 **Licencia:** CC BY-SA 4.0
 
 ---
