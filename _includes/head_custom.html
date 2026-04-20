@@ -2,7 +2,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
-  /* CENTRADO COMPLETO DEL LAYOUT — todo (sidebar+main+banner)
+  /* CENTRADO COMPLETO DEL LAYOUT — todo (sidebar+main+banner+footer corporativo)
      queda centrado respecto al viewport en pantallas >=66.5rem.
      Ancho fijo del layout: 66.5rem = 1064px con rem=16px. */
   .ciberaula-banner-fullwidth {
@@ -30,6 +30,18 @@
       width: 100%;
       margin-left: auto;
       margin-right: auto;
+    }
+    /* Footer corporativo — mismo ancho fijo y centrado que el banner.
+       z-index alto para que cubra el sidebar (position:fixed) en la zona
+       de overlap cuando el scroll llega al final de la página. */
+    body > .ciberaula-footer {
+      max-width: 66.5rem !important;
+      width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      position: relative !important;
+      z-index: 10 !important;
+      box-sizing: border-box;
     }
   }
   .main-content > p:first-child:has(img[src*="banner"]) {
