@@ -2,9 +2,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
-  /* CENTRADO COMPLETO DEL LAYOUT — todo (sidebar+main+banner+footer corporativo)
-     queda centrado respecto al viewport en pantallas >=66.5rem.
-     Ancho fijo del layout: 66.5rem = 1064px con rem=16px. */
+  /* CENTRADO COMPLETO DEL LAYOUT - cabecera + footer ancho fijo 1064px
+     centrados respecto al viewport. Version 1 validada el 20/04/2026. */
   .ciberaula-banner-fullwidth {
     width: 100%;
     line-height: 0;
@@ -30,10 +29,16 @@
       width: 100%;
       margin-left: auto;
       margin-right: auto;
+      overflow: hidden;
     }
-    /* Footer corporativo — mismo ancho fijo y centrado que el banner.
-       z-index alto para que cubra el sidebar (position:fixed) en la zona
-       de overlap cuando el scroll llega al final de la página. */
+    /* Banner compacto: altura reducida al ~60% del original */
+    .ciberaula-banner-fullwidth img {
+      height: 85px;
+      max-height: 85px;
+      object-fit: cover;
+      object-position: center;
+    }
+    /* Footer corporativo centrado + z-index para que no lo tape el sidebar */
     body > .ciberaula-footer {
       max-width: 66.5rem !important;
       width: 100% !important;
@@ -42,6 +47,51 @@
       position: relative !important;
       z-index: 10 !important;
       box-sizing: border-box;
+      padding: 0.75rem 4% 0.3rem !important;
+    }
+    /* Footer compacto: reducido al ~40% del alto original */
+    body > .ciberaula-footer h3 {
+      font-size: 1rem !important;
+      line-height: 1.2 !important;
+      margin: 0 0 0.25rem !important;
+    }
+    body > .ciberaula-footer h4 {
+      font-size: 0.72rem !important;
+      margin: 0 0 0.25rem !important;
+      line-height: 1.2 !important;
+    }
+    body > .ciberaula-footer p {
+      font-size: 0.74rem !important;
+      line-height: 1.35 !important;
+      margin: 0 0 0.3rem !important;
+    }
+    body > .ciberaula-footer ul {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    body > .ciberaula-footer li {
+      font-size: 0.74rem !important;
+      line-height: 1.45 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    body > .ciberaula-footer .ciberaula-footer__since {
+      font-size: 0.64rem !important;
+      padding: 0.1rem 0.5rem !important;
+      margin-top: 0.2rem !important;
+    }
+    body > .ciberaula-footer .ciberaula-footer__top {
+      padding-bottom: 0.3rem !important;
+      gap: 1rem !important;
+    }
+    body > .ciberaula-footer .ciberaula-footer__bottom {
+      padding: 0.4rem 0 0 !important;
+      margin-top: 0.3rem !important;
+      font-size: 0.7rem !important;
+    }
+    body > .ciberaula-footer .ciberaula-footer__bottom > div,
+    body > .ciberaula-footer .ciberaula-footer__bottom a {
+      font-size: 0.7rem !important;
     }
   }
   .main-content > p:first-child:has(img[src*="banner"]) {
