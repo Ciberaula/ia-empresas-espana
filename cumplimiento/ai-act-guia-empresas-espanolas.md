@@ -14,11 +14,7 @@ tags: ["ai-act", "cumplimiento", "pymes-espana", "aesia", "formacion-ia"]
 
 > **Resumen en 3 frases:** El Reglamento (UE) 2024/1689, conocido como AI Act, obliga a toda empresa española que use inteligencia artificial —incluidos LLMs como ChatGPT, Claude o Copilot— a cumplir unas obligaciones que se despliegan en fases entre 2025 y 2027. La obligación más inmediata es el artículo 4, ya en vigor desde febrero de 2025: el personal debe tener un nivel suficiente de alfabetización en IA. Las sanciones alcanzan los 35 millones de euros o el 7% de la facturación anual mundial; la AESIA y la AEPD son los organismos encargados de supervisarlo en España.
 
-**Última actualización:** 17 de abril de 2026
-
-**Autora:** Ana María González · Directora de Ciberaula · Más de dos décadas en formación corporativa
-
-**Licencia:** CC BY-SA 4.0 — libre uso con atribución
+**Última actualización:** 17 de abril de 2026 · **Autora:** Ana María González · Directora de Ciberaula · Más de dos décadas en formación corporativa · **Licencia:** CC BY-SA 4.0 — libre uso con atribución
 
 ---
 
