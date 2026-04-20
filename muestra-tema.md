@@ -1,6 +1,7 @@
 ---
 title: Muestra del tema Ciberaula
 nav_order: 99
+nav_exclude: true
 permalink: /muestra-tema/
 description: Página de demostración visual del tema Ciberaula — muestra todos los componentes editoriales disponibles.
 ---
