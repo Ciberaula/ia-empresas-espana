@@ -1,57 +1,6 @@
 <link rel="stylesheet" href="{{ '/assets/css/ciberaula.css' | relative_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 <style>
-/* ── BANNER ── max-width para no extenderse infinitamente */
-.ciberaula-banner-fullwidth {
-  width: 100%;
-  line-height: 0;
-  background: #0d2137;
-  overflow: hidden;
-  max-width: 1440px;
-}
-.ciberaula-banner-fullwidth img {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-height: 105px;
-  object-fit: cover;
-  object-position: left center;
-}
-
-/* Ocultar banner duplicado en markdown */
-.main-content > p:first-child > img[src*="banner"],
-.main-content > img[src*="banner"] { display: none !important; }
-.main-content > p:first-child:has(img[src*="banner"]) { display: none !important; }
-
-/* Ocultar site-footer del sidebar */
-.side-bar .site-footer { display: none !important; }
-
-/* ── SVG centrado ── sobreescribir max-width del contenido */
-.main-content div[style*="display:flex"][style*="justify-content:center"] {
-  max-width: none !important;
-}
-
-/* ── FOOTER ── full-width cuando está en body (movido por JS) */
-body > .ciberaula-footer {
-  width: 100% !important;
-  max-width: 1440px;
-  margin: 0 !important;
-  padding: 2.5rem 4% 0 !important;
-  box-sizing: border-box !important;
-}
-
-/* Evitar scroll horizontal */
-body { overflow-x: hidden; }
+.ciberaula-banner{display:block;max-width:100%;height:auto;margin:0 auto 1.5rem;border-radius:8px}
 </style>
-
-<script>
-// Mover el footer corporativo al final del body (fuera de .main y del sidebar)
-document.addEventListener('DOMContentLoaded', function() {
-  var footer = document.querySelector('.ciberaula-footer');
-  if (footer) {
-    document.body.appendChild(footer);
-  }
-});
-</script>
