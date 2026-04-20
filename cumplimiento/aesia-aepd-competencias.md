@@ -16,11 +16,7 @@ tags: ["aesia", "aepd", "ai-act", "cumplimiento", "supervision-ia"]
 
 > **Resumen en 3 frases:** En España, la supervisión del AI Act se reparte principalmente entre AESIA (Agencia Española de Supervisión de la IA, creada en 2023 con sede en A Coruña) y AEPD (Agencia Española de Protección de Datos), con otros reguladores sectoriales interviniendo en dominios específicos. AESIA es la autoridad de referencia del AI Act como tal, mientras que AEPD actúa cuando los sistemas de IA procesan datos personales (lo habitual en empresas). Las dos agencias coordinan su actuación y las empresas españolas deben poder interactuar con ambas según el caso.
 
-**Última actualización:** 17 de abril de 2026
-
-**Autora:** Ana María González · Directora de CiberAula
-
-**Licencia:** CC BY-SA 4.0
+**Última actualización:** 17 de abril de 2026 · **Autora:** Ana María González · Directora de CiberAula · **Licencia:** CC BY-SA 4.0
 
 ---
 
