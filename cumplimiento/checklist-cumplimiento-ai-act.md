@@ -16,13 +16,7 @@ tags: ["checklist", "ai-act", "cumplimiento", "auditoria", "pymes"]
 
 > **Resumen en 3 frases:** 35 puntos de verificación para autoevaluar el grado de cumplimiento del AI Act en tu empresa, agrupados en 7 bloques temáticos con indicación de prioridad (crítica, alta, media) y plazo de ejecución. Está pensado para que un responsable de RRHH o compliance sin conocimiento técnico previo pueda identificar gaps y construir un plan de adopción en 90 días. Los puntos marcados como críticos son obligaciones ya exigibles desde febrero de 2025 o que entrarán en vigor en agosto de 2026.
 
-**Última actualización:** 17 de abril de 2026
-
-**Autora:** Ana María González · Directora de CiberAula
-
-**Uso:** Imprimir o duplicar en Excel/Google Sheets. Cada punto tiene su propia casilla.
-
-**Licencia:** CC BY-SA 4.0 — libre uso con atribución
+**Última actualización:** 17 de abril de 2026 · **Autora:** Ana María González · Directora de CiberAula · **Uso:** Imprimir o duplicar en Excel/Google Sheets. Cada punto tiene su propia casilla. · **Licencia:** CC BY-SA 4.0 — libre uso con atribución
 
 ---
 
