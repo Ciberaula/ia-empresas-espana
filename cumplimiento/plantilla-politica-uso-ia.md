@@ -16,11 +16,7 @@ tags: ["plantilla", "politica-ia", "ai-act", "rgpd", "cumplimiento-corporativo"]
 
 > **Cómo usar esta plantilla:** Copia el texto que sigue a tu editor de Word, Google Docs o similar. Sustituye todas las etiquetas marcadas con `[CORCHETES]` por los datos de tu empresa. Revisa las secciones marcadas con `[OPCIONAL]` y elimina las que no apliquen. Imprime, firma y archiva con la fecha de entrada en vigor. Entrega una copia firmada a cada empleado que use IA y conserva las copias firmadas durante al menos 5 años.
 
-**Tipo de documento:** Plantilla editable para cumplimiento del artículo 4 del AI Act y del RGPD
-
-**Autora:** Ana María González · Directora de CiberAula
-
-**Licencia:** Texto marco CC BY-SA 4.0. Las cláusulas legales se dedican al dominio público para permitir su uso sin atribución obligatoria.
+**Tipo de documento:** Plantilla editable para cumplimiento del artículo 4 del AI Act y del RGPD · **Autora:** Ana María González · Directora de CiberAula · **Licencia:** Texto marco CC BY-SA 4.0. Las cláusulas legales se dedican al dominio público para permitir su uso sin atribución obligatoria.
 
 ---
 
