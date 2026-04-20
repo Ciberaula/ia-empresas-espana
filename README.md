@@ -1,8 +1,4 @@
-<div align="center">
-
-![CiberAula · Entidad organizadora de formación bonificada](assets/banner.png)
-
-</div>
+<p style="text-align:center"><img src="{{ site.baseurl }}/assets/banner.png" alt="Ciberaula - IA para empresas en Espana" class="ciberaula-banner"></p>
 
 <div align="center">
 
